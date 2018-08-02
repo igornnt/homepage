@@ -151,8 +151,8 @@ img {
     border-top-right-radius:29px;
     background-color: #253640;
     text-align: center;
-    padding-top: 10px;
-    height: 60px;
+    padding-top: 20px;
+    height: 70px;
 }
 
 .conceito{
@@ -160,8 +160,8 @@ img {
     background-color: #50595C;
     width: 100%;
     text-align: center;
-    padding-top: 20px;
-    height: 80px;
+    padding-top: 30px;
+    height: 100px;
 }
 
 .servicos{
@@ -169,8 +169,8 @@ img {
     background-color: #302F2F;
     width: 100%;
     text-align: center;
-    padding-top: 30px;
-    height: 100px;
+    padding-top: 40px;
+    height: 110px;
 }
 
 .contato{
@@ -178,6 +178,6 @@ img {
     background-color: #301B1B;
     text-align: center;
     width: 100%;
-    padding-top: 40px;
-    height: 100px;
+    padding-top: 50px;
+    height: 120px;
 }
