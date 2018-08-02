@@ -1,0 +1,123 @@
+/*============================ RESET ===================*/
+
+* {
+    /*margem*/
+    margin: 0;
+
+    /*preenchimento*/
+    padding: 0;
+
+    /*tamanho da fonte*/
+    font-size: 100%;
+
+    /*borda*/
+    border: none;
+
+    /*contorno*/
+    outline: none;
+
+    /*Expessura da fonte*/
+    font-weight: 300;
+
+    /*tamanho da caixa
+    quando adicionarmos um padding ele não vai alterar a dimensão do elemento*/
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*CABEÇALHO*/
+.cabecalho {
+    position: absolute;
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+    float: left;
+    color:  #1B2E35;
+    font-size: 60px;
+}
+
+.btn-menu {
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color:  #1B2E35;
+    border-radius: 56px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    /*background: linear-gradient(to right, #11998e, #38ef7d);*/
+
+}
+
+/*MENU*/
+
+.menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.9);
+    top:0;
+    left: 0;
+}
+.btn-close {
+    font-size: 3em;
+    color: white;
+    float: right;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.btn-close:hover{
+     color:  #FFF200;
+}
+
+.menu ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li {
+    padding: 1.5%;
+}
+.menu li a {
+    font-size: 2em;
+    color: #fff;
+    padding: 1% 10%;
+}
+.menu li a:hover{
+    border: 0.1em solid #FFF200;
+}
+
+.container-header img {
+    margin-bottom: -10%;
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+.corpo{
+    height: 300px;
+    background-color: #1B2E35;
+}
