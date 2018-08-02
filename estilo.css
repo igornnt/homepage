@@ -66,7 +66,6 @@ img {
     cursor: pointer;
     background-color: rgba(0,0,0,0);
     /*background: linear-gradient(to right, #11998e, #38ef7d);*/
-
 }
 
 /*MENU*/
@@ -89,7 +88,7 @@ img {
     margin-right: 5%;
 }
 .btn-close:hover{
-     color:  #FFF200;
+     color:  #1B2E35;
 }
 
 .menu ul {
@@ -107,7 +106,7 @@ img {
     padding: 1% 10%;
 }
 .menu li a:hover{
-    border: 0.1em solid #FFF200;
+    border: 0.1em solid #1B2E35;
 }
 
 .container-header img {
