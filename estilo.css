@@ -121,17 +121,15 @@ img {
 
 .container-header h3 {
     border-style: solid;
-    border-width: 5px;
+    border-width: 2px;
     position: absolute;
-    height: 220px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     color:  #1B2E35;
-    font-size: 30px;;
+    font-size: 90%;
     text-align: left;
-    margin-top: 20%;
-    margin-left: 66%;
-    margin-right: 5%;
-    padding: 23px;
+    margin:30% 62%;
+    padding: 10px;
 }
 
 .corpo{
