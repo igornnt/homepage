@@ -137,7 +137,7 @@ img {
     color: white;
     border-top-left-radius: 29px;
     border-top-right-radius: 29px;
-    height: auto;
+    height: 100%;
     padding-bottom: 0%;
     background-color: #1B2E35;
 }
@@ -148,7 +148,7 @@ img {
     font-size-adjust: auto;
     border-top-left-radius: 29px;
     border-top-right-radius:29px;
-    background-color: #1B2E35;
+    background-color: #253640;
     width: 100%;
     text-align: center;
 }
@@ -157,7 +157,7 @@ img {
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 2em;
-    background-color: #575700;
+    background-color: #50595C;
     width: 100%;
     text-align: center;
 }
@@ -166,7 +166,7 @@ img {
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 2em;
-    background-color: #332F01;
+    background-color: #302F2F;
     width: 100%;
     text-align: center;
 }
@@ -175,7 +175,7 @@ img {
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 2em;
-    background-color: #248D47;
+    background-color: #301B1B;
     width: 100%;
     text-align: center;
 }
