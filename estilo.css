@@ -138,6 +138,44 @@ img {
     border-top-left-radius: 29px;
     border-top-right-radius: 29px;
     height: auto;
-    padding-bottom: 200%;
+    padding-bottom: 0%;
     background-color: #1B2E35;
+}
+.home{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2em;
+    font-size-adjust: auto;
+    border-top-left-radius: 29px;
+    border-top-right-radius:29px;
+    background-color: #1B2E35;
+    width: 100%;
+    text-align: center;
+}
+
+.conceito{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2em;
+    background-color: #575700;
+    width: 100%;
+    text-align: center;
+}
+
+.servicos{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2em;
+    background-color: #332F01;
+    width: 100%;
+    text-align: center;
+}
+
+.contato{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2em;
+    background-color: #248D47;
+    width: 100%;
+    text-align: center;
 }
