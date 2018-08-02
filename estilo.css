@@ -42,6 +42,7 @@ img {
 
 /*CABEÇALHO*/
 .cabecalho {
+    position: absolute;
     width: 100%;
     float: left;
     padding: 3% 4%;
@@ -51,8 +52,8 @@ img {
     width: 56px;
     height: 56px;
     float: left;
-    background: url(img/logotipo.png) center center/56px no-repeat;
-    font-size: 0;
+    color:  #1B2E35;
+    font-size: 100px;
 }
 
 .btn-menu {
@@ -60,10 +61,10 @@ img {
     height: 56px;
     float: right;
     text-align: center;
-    /*color: beige;*/
+    color:  #1B2E35;
     border-radius: 56px;
     cursor: pointer;
-    background-color: #f5f5f5;
+    background-color: rgba(0,0,0,0);
     /*background: linear-gradient(to right, #11998e, #38ef7d);*/
 
 }
@@ -107,4 +108,16 @@ img {
 }
 .menu li a:hover{
     border: 0.1em solid #FFF200;
+}
+
+.container-header img {
+    margin-bottom: -10%;
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+.corpo{
+    height: 300px;
+    background-color: #1B2E35;
 }
