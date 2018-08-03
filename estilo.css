@@ -161,9 +161,9 @@ img {
 }
 
 .home h1{
-    font-size: 30px;
     text-align: center;
-    font-family: 'Besom';
+    font-size: 2em;
+
 }
 .home p{
     padding-top: 10px;
