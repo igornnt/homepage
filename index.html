@@ -10,57 +10,66 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="icon" href="img/montanha.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="container-header">
-    <header class="cabecalho">
-        <a href="index.html"><h1 class="logo">IO</h1></a>
-        <button class="btn-menu"><i class="fa fa-bars  fa-3x"></i></button>
-        <nav class="menu">
-            <a class="btn-close"><i class="fas fa-times"></i></a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Trabalhos</a></li>
-                <li><a href="#">Quem sou?</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h3>A <span style="background-color: darkorange">primeira</span><br> <i>visualização</i><br> é a que <br><span style="font-size: 200%;">vale!</span></h3>
-    <img src="img/me.jpg">
- </div>
-<div class="corpo">
-    <div class="home">
-        <h1>Sobre mim</h1>
+        <header class="cabecalho">
+            <a href="index.html">
+                <h1 class="logo">IO</h1>
+            </a>
+            <button class="btn-menu"><i class="fa fa-bars  fa-3x"></i></button>
+            <nav class="menu">
+                <a class="btn-close"><i class="fas fa-times"></i></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Trabalhos</a></li>
+                    <li><a href="#">Quem sou?</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h3>A tecnologia é o primeiro passo do sucesso!</h3>
+        <img src="img/me.jpg">
     </div>
-    <div class="conceito">
-        <h1>Conceito</h1>
-    </div>    
-    <div class="servicos">
-        <h1>Serviços</h1>
+    <div class="corpo">
+        <div class="home">
+            <h1 id="sobremim-titulo">Sobre mim</h1>
+            <p id="sobremim-texto">Graduando em Engenharia de Software na Universade Federal do pampa.<br><br><br>
+                Atuar na tecnologia não foi uma escolha, foi uma necessidade de transformação social. Acredito que não existe uma grande ou uma pequena ideia, o que existe é uma ideia que não foi difundida. 
+            </p>
+        </div>
+        <div class="conceito">
+            <h1>Conceito</h1>
+        </div>
+        <div class="servicos">
+            <h1>Serviços</h1>
+        </div>
+        <div class="contato">
+            <h1>Contato</h1>
+        </div>
     </div>
-    <div class="contato">
-        <h1>Contato</h1>
-    </div>
-</div>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<script>
+    <script>
         $(".btn-close").click(function() {
             $(".menu").fadeOut();
         });
+
         $(".btn-menu").click(function() {
             $(".menu").fadeIn();
         });
-</script>
 
-    
+        $(".home").click(function() {
+            var target = $('#sobremim-texto');
+            if (target.is(':hidden')) {
+                $("#sobremim-texto").slideDown("fast");
+            } else {
+                $("#sobremim-texto").slideUp("fast");
+            }
+        });
+    </script>
+
 </body>
 
 </html>
-
-
